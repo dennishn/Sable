@@ -33,14 +33,26 @@ body {
 	}
 }
 
-.card .container {
-	padding: $column-gutter/2;
-	background: #fff;
-	box-shadow: 0 0 5px rgba(0,0,0,0.25);
-	.front, .back {
-		background-color: #fff;
+.list-results-item {
+	margin: $column-gutter/2 0;
+	h4 {
+		margin: 0;
 	}
-	.back {
-		padding: $column-gutter/2;
+	.button-group {
+		.button {
+			margin: 0;
+		}
+	}
+}
+
+select {
+	margin: 0;
+}
+.field-sort {
+	h5 {
+		margin: 0;
+	}
+	.right {
+		margin-top: -9px;
 	}
 }

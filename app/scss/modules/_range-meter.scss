@@ -1,0 +1,18 @@
+.progress {
+  margin-top: 20px;
+  margin-bottom: 0;
+  .meter {
+    float:left;
+  }
+}
+.meter {
+  &.secondary {
+    background-color: $secondary-color;
+  }
+  &.success {
+    background-color: $success-color;
+  }
+  &.alert {
+    background-color: $alert-color;
+  }
+}
